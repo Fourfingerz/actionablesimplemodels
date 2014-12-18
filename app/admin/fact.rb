@@ -1,4 +1,5 @@
 ActiveAdmin.register Fact do
+  permit_params :fact_description
 
 
   # See permitted parameters documentation:
