@@ -1,4 +1,5 @@
 ActiveAdmin.register Issue do
+  permit_params :issue_name
 
 
   # See permitted parameters documentation:
